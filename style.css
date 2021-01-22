@@ -1,0 +1,61 @@
+body {
+	background-color: lightgray;
+	margin: 0;
+}
+
+.principal {
+	background-image: url(season-bg.jpg);
+	background-size: cover;
+	margin: 0;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.principal__button {
+	width: 80px;
+	height: 50px;
+	display: block;
+	margin: 0 auto 0 auto;
+	background-color: #FFDA33;
+	border: 1px white solid;
+}
+
+.principal__enlace {
+	color: white;
+	text-decoration: none;
+}
+
+.principal__title {
+	margin: 0;
+	display: block;
+	color: #FFDA33;
+	font-size: 50px;
+	-webkit-text-stroke: 2px white;
+}
+
+
+
+.characters {
+	margin-top: 100px;
+}
+
+.characters__content {
+	display: grid;
+	grid-template-rows: repeat(2, 300px);
+	grid-template-columns: repeat(3, 300px);
+	margin: 0 50px 0 50px;
+	justify-content: center;
+}
+
+.characters__img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.characters__title {
+	text-align: center;
+}
